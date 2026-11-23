@@ -1,0 +1,14 @@
+2026-11-14 10:01:12,331 INFO  [main] Application started
+2026-11-14 10:01:15,442 ERROR [db] Connection timeout after 30s to host 10.0.0.12
+2026-11-14 10:02:01,118 WARN  [api] Slow response: 2345ms for /users/812
+2026-11-14 10:02:44,903 ERROR [api] User 812 not found
+2026-11-14 10:03:10,555 ERROR [db] Connection timeout after 30s to host 10.0.0.15
+2026-11-14 10:04:22,010 ERROR [api] User 1043 not found
+2026-11-14 10:05:00,777 INFO  [scheduler] Job cleanup finished in 120ms
+2026-11-14 10:05:31,264 ERROR [files] FileNotFoundError: /data/uploads/a8f3c.pdf
+2026-11-14 10:06:12,889 ERROR [db] Connection timeout after 45s to host 10.0.0.12
+2026-11-14 10:07:40,121 ERROR [api] User 77 not found
+2026-11-14 10:08:03,456 ERROR [files] FileNotFoundError: /data/uploads/zz91k.pdf
+2026-11-14 10:09:15,000 CRITICAL [payments] NullReferenceException in PaymentService.Charge order=55123
+this line is garbage and does not match the format
+2026-11-14 10:10:20,300 ERROR [db] Connection timeout after 30s to host 10.0.0.19
