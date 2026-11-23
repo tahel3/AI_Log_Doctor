@@ -1,3 +1,14 @@
+---
+title: AI Log Doctor
+emoji: 🩺
+colorFrom: blue
+colorTo: indigo
+sdk: gradio
+app_file: app.py
+python_version: "3.12"
+pinned: false
+---
+
 # AI Log Doctor 🩺
 
 **English** | [עברית](README.he.md)
