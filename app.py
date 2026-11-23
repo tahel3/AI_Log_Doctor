@@ -12,6 +12,17 @@ from log_doctor.report import ReportGenerator
 
 load_dotenv()
 
+# ZeroGPU Spaces refuse to start unless at least one @spaces.GPU function exists.
+# This app doesn't need a GPU (the AI runs on Gemini), so this is a no-op placeholder.
+try:
+    import spaces
+
+    @spaces.GPU
+    def _zerogpu_placeholder():
+        return None
+except ImportError:  # running locally / on CPU hardware
+    pass
+
 SAMPLE_LOG = Path(__file__).parent / "sample_logs" / "app.log"
 MAX_CHARS = 500_000  # protect the demo from huge uploads
 
